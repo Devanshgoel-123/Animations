@@ -1,0 +1,173 @@
+body{
+  background-color: #66BFBF;
+}
+.box{
+  height: 200px;
+  width: 200px;
+  margin: 1rem;
+  text-align: center;
+  border: 10px solid black;
+  padding: 0.5rem;
+}
+.dbox{
+  height: 200px;
+  width: 200px;
+  margin: 1rem;
+  text-align: center;
+  border: 10px solid black;
+  padding: 0.5rem;
+}
+#one, #four{
+  background-color: red;
+}
+#two , #five{
+  background-color: blue;
+}
+#three , #six{
+  background-color: yellow;
+}
+h1{
+  text-align: center;
+  font-size: 4rem;
+}
+img{
+  height: 130px;
+  width: 130px;
+  border: 10px solid black;
+  margin : 0 1rem;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shadow{
+  box-shadow: 0.8rem 0.8rem 1rem 0.5rem white;
+}
+.shadow2{
+  box-shadow: -0.8rem -0.8rem 1rem 0.5rem white;
+}
+
+.animation-box{
+  margin-top: 10rem;
+  display: flex;
+  padding: 2rem;
+  align-items: flex-start;
+  animation: devansh 5s 5 forwards;
+
+}
+.image1{
+  animation: im1 5s  5 alternate;
+}
+.image2{
+  animation: im2 5s  5 alternate;
+}
+@keyframes devansh{
+0%{
+  margin-left: .5%;
+}
+50%{
+  margin-left: 25%;
+}
+100%{
+  margin-left: .5%;
+}
+}
+@keyframes im1{
+  0%{
+    margin-top: 70px;
+    height: 150px;
+    width: 150px;
+
+  }
+  20%{
+    margin-top: 0;
+    border-radius: 15px;
+    height: 175px;
+    width: 175px;
+  }
+  40%{
+  margin-top: 70px;
+  height: 200px;
+  width: 200px;
+  border-radius: 25px;
+  }
+  60%{
+  margin-top: 0;
+  height: 180px;
+  width:180px;
+  border-radius: 35px;
+  }
+  80%{
+   margin-top: 70px;
+   height: 175px;
+   width:175px;
+   border-radius: 45px;
+  }
+  100%{
+   margin-top: 0;
+   height:150px;
+   width:150px;
+   border-radius: 55px;
+  }
+}
+@keyframes im2{
+  0%{
+    margin-top:  -70px;
+    height: 150px;
+    width: 150px;
+  }
+  20%{
+    margin-top: 0;
+    height: 175px;
+    width: 175px;
+    border-radius: 15px;
+  }
+  40%{
+  margin-top: -70px;
+  height: 200px;
+  width: 200px;
+  border-radius: 25px;
+  }
+  60%{
+  margin-top: 0;
+  height: 180px;
+  width:180px;
+  border-radius: 35px;
+  }
+  80%{
+   margin-top: -70px;
+   height: 175px;
+   width:175px;
+    border-radius: 45px;
+  }
+  100%{
+   margin-top: 0;
+   height:150px;
+   width:150px;
+    border-radius: 55px;
+  }
+}
+.text{
+  background-color: black;
+  color: red;
+  margin: 5rem 0 0 0;
+
+}
+.lasthead{
+  animation: text1 5s 5 forwards;
+  padding: 20px;
+  font-family: sans-serif;
+}
+@keyframes text1{
+  0%{
+    margin-left:1%;
+  }
+  50%{
+    margin-left: 40%;
+
+  }
+  100%{
+    margin-left: 1%;
+  }
+}
